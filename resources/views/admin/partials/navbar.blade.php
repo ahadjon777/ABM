@@ -11,9 +11,9 @@
     <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
         <!-- Search -->
 
-        <div class="navbar-nav align-items-center">
+        <div class="navbar-nav align-items-center ">
             <div class="nav-item d-flex align-items-center">
-                <h3 class="text-center">Mudofaa Vazirligi Axborotlashtirish Bosh Markazi Moddiy Texnik Ta'minoti Elektron Ombori</h3>
+                <h3 class="text-center mt-3 ">Mudofaa Vazirligi Axborotlashtirish Bosh Markazi Moddiy Texnik Ta'minoti Elektron Ombori</h3>
 
 {{--                <i class="bx bx-search fs-4 lh-0"></i>--}}
 {{--                <input--}}

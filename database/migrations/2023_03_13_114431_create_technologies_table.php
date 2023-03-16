@@ -16,10 +16,10 @@ return new class extends Migration
         Schema::create('technologies', function (Blueprint $table) {
             $table->id();
             $table->foreignId('boshqarma_id')->nullable()->constrained('boshqarmas');
-            $table->string('qurilma_nomi');
-            $table->string('formulyar_raqami');
-            $table->string('model');
-            $table->string('seria_nomer');
+            $table->string('qurilma_nomi')->nullable();
+            $table->string('formulyar_raqami')->nullable();
+            $table->string('model')->nullable();
+            $table->string('seria_nomer')->nullable();
             $table->string('ozu_hajmi')->nullable();
             $table->string('qmd_model')->nullable();
             $table->string('qmd_nomer')->nullable();
@@ -29,10 +29,10 @@ return new class extends Migration
             $table->string('monitor1_nomer')->nullable();
             $table->string('monitor2_model')->nullable();
             $table->string('monitor2_nomer')->nullable();
-            $table->date('ishlabchiqarilgan_sana');
-            $table->date('hisobgaolingan_sana');
-            $table->string('olindi');
-            $table->string('topshirildi');
+            $table->date('ishlabchiqarilgan_sana')->nullable();
+            $table->date('hisobgaolingan_sana')->nullable();
+            $table->string('olindi')->nullable();
+            $table->string('topshirildi')->nullable();
             $table->timestamps();
         });
     }

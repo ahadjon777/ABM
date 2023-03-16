@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('/admin.master.main');
+    return view('admin.master.main');
 })->middleware('auth');
 
 Route::get('/dashboard', function () {
